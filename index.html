@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="./styles/stylesheet.css" >
 </head>
 <body>
-	<header>
+	<header class="main-header">
 		<h1>"You should never settle for who you are! -Michael Scott" - Sean Estes</h1>
 
     <!-- Only contacts will have seperate window  Look into having show up in a popup window if possible -->
@@ -27,14 +27,15 @@
 				</li>
 			</ul>
 		</nav>
+
 		<button onclick="myFunction()">Toggle Dark Mode</button>
 
-	<script>
-	function myFunction() {
-		 var element = document.body;
-		 element.classList.toggle("dark-mode");
-	}
-	</script>
+		<script>
+		function myFunction() {
+			 var element = document.body;
+			 element.classList.toggle("dark-mode");
+		}
+		</script>
 
 
 	</header>
