@@ -1,0 +1,41 @@
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+}
+.dark-mode {
+  background-color: #444747;
+  color: white;
+}
+h1 {
+  font-weight: 600;
+}
+h2 {
+  color: red;
+  font-weight: 100;
+}
+h3 {
+  color: #eee
+  font-weight: 100;
+}
+h5 {
+  color: #eee
+  font-weight: 300;
+}
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: #339966;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}

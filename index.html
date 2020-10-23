@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>A Website about Sean Estes. Candidate for the Most Interesting Man in the World!</title>
+	<link rel="stylesheet" type="text/css" href="./styles/stylesheet.css" >
 </head>
 <body>
 	<header>
@@ -26,7 +27,26 @@
 				</li>
 			</ul>
 		</nav>
+		<button onclick="myFunction()">ARGHGHG Its too Bright turn off the lights!</button>
+		<script src="./styles/stylesheet.css">
+		</script>
+		<script>
+		function myFunction() {
+			 var element = document.body;
+			 element.classList.toggle("dark-mode");
+		}
+		</script>
+		<script>
+		function myFunction() {
+			 var element = document.body;
+			 element.classList.toggle("dark-mode");
+		}
+		</script>
+
+
 	</header>
+
+
 
   <!-- Articles shall be odd numbers 1-99 -->
 
@@ -100,6 +120,7 @@
 					<li>For auto fill in text editor you do not put in the first bracket</li>
 				</ol>
 			</article>
+
 		</section>
 	</main>
 	<footer>
