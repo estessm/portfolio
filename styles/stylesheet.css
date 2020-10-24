@@ -117,4 +117,20 @@ nav li a:hover {
   background-color: #111;
 }
 
+article {
+  border: 2px solid cornflowerblue;
+  margin: 5px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: dimgray;
+}
+
 /* ======================== Articles 1-99 ============================= */
