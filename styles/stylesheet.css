@@ -1,26 +1,60 @@
+/*
+Theme Name: School Work HTML110
+Theme URI: https://github.com/estessm/portfolio.git
+Author: Sean Estes
+Author URI: https://github.com/estessm
+Description: Attempt
+*/
+
+/* ######################################################################### */
+
+/*  Developed by Poisonpez (Sean Estes)  */
+
+/* ######################################################################### */
+
+
+/* ============================= ELEMENTS ============================= */
+
 body {
-  padding: 25px;
-  background-color: white;
-  color: black;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  font-weight: 100;
+
+  width: 100%;
+  min-height: 100%;
+  padding-bottom: 980px;
+
+  word-break: break-word;
 }
+
+h1 {
+  color: cornflowerblue;
+  font-weight: 500;
+}
+h2 {
+  color: cornflowerblue;
+  font-weight: 400;
+}
+h3 {
+  font-weight: 300;
+}
+h4 {
+  color: cornflowerblue;
+  font-weight: 200;
+}
+h5 {
+  color: cornflowerblue;
+  font-weight: 100;
+}
+
+
+/* ============================= ID's ============================= */
+
 .dark-mode {
   background-color: #444747;
   color: white;
 }
-h1 {
-  font-weight: 600;
-}
-h2 {
-  color: red;
-  font-weight: 100;
-}
-h3 {
-  font-weight: 100;
-}
-h5 {
-  font-weight: 300;
-}
+
 a:link {
   color: blue;
 }
@@ -33,7 +67,6 @@ a:hover {
   color: hotpink;
 }
 
-/* selected link */
 a:active {
   color: blue;
 }
@@ -92,3 +125,5 @@ nav a:active {
   background-color: #4CAF50;
   color: white;
 }
+
+/* ============================= Classes ============================= */
