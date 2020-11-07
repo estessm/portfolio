@@ -28,10 +28,10 @@ body {
   word-break: normal;
 }
 
-
 h1 {
   color: cornflowerblue;
   font-weight: 500;
+  font-family: 'Permanent Marker', cursive;
 }
 h2 {
   color: cornflowerblue;
@@ -56,6 +56,8 @@ h5 {
   background-color: #444747;
   color: white;
 }
+
+
 
 a:link {
   color: cornflowerblue;
@@ -193,6 +195,8 @@ aside {
   clear: both;
   width: 100%;
 }
+
+
 
 
 /* ======================== Articles 1-99 ============================= */
