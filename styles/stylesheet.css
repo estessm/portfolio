@@ -142,6 +142,7 @@ aside {
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-flow: column;
 }
 
 .hide {
@@ -177,6 +178,15 @@ aside {
 
 .no-border {
   border: none;
+}
+
+.no-img {
+  display: flex;
+}
+
+.fig-1 {
+  clear: both;
+  width: 100%;
 }
 
 .post-footer-1 {
