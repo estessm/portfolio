@@ -20,12 +20,14 @@ body {
   font-size: 16px;
   font-weight: 100;
   padding: 15px;
-  width: 95%;
+  margin: -14px;
+  width: 100%;
   min-height: 100%;
   padding-bottom: 10%;
 
   word-break: normal;
 }
+
 
 h1 {
   color: cornflowerblue;
@@ -132,5 +134,32 @@ aside {
   font-style: italic;
   background-color: dimgray;
 }
+
+.hide {
+  display: none;
+}
+
+.left {
+  float: left;
+  width: 60%;
+  height: 36rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right {
+  float: right;
+  width: 35%;
+  height: auto;
+  text-align: left;
+}
+
+.post-footer-1 {
+  clear: both;
+  width: 100%;
+}
+
 
 /* ======================== Articles 1-99 ============================= */
