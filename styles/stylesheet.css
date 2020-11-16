@@ -52,6 +52,7 @@ h5 {
 main {
   background-color: grey;
   display: inline-block;
+  width: 100%;
 }
 
 .wrapper {
