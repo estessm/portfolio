@@ -126,6 +126,7 @@ nav li a {
   text-decoration: none;
 }
 
+
 nav li a:after{
   content: " / ";
   position: absolute;
