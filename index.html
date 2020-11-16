@@ -14,7 +14,7 @@
 </head>
 <body>
 	<header class="main-header">
-		<h1>"You should never settle for who you are! -Michael Scott" - Sean Estes</h1>
+		<img src="./images/Logo.png" alt="Logo" class="logo">
 
     <!-- Only contacts will have seperate window  Look into having show up in a popup window if possible -->
 
@@ -37,14 +37,14 @@
 			</ul>
 		</nav>
 
-		<button onclick="myFunction()">Toggle Dark Mode</button>
+
 
 
 
   <!-- Articles shall be odd numbers 1-99 -->
 
 	<main>
-		<section id="articles">
+		<section class="wrapper" id="articles">
 			<h2>The Good, The Bad, The Ugly</h2>
 			<article id="article-1">
 				<h3>Decisions, decisions, desicions...</h3>
@@ -150,13 +150,6 @@
 	<footer>
 		<h5>Copyright 2020 Sean Estes ... Valid Internet Minister</h5>
 	</footer>
-
-	<script>
-	function myFunction() {
-		 var element = document.body;
-		 element.classList.toggle("dark-mode");
-	}
-	</script>
 
 </body>
 </html>
