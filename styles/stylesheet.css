@@ -235,11 +235,21 @@ footer {
 }
 
 .logo {
-  transition: transform 2s;
+  transition: transform 1s;
 }
 
 .logo:hover {
   transform: rotate(360deg);
+}
+
+.page-1:nth-of-type(odd) {
+  background-color: floralwhite;
+  border: 3px solid red;
+}
+
+.page-1:nth-of-type(even) {
+  background-color: dimgray;
+  border: 3px solid green;
 }
 
 
