@@ -29,35 +29,30 @@
 			</ul>
 		</nav>
 
-	<button onclick="myFunction()">Toggle Dark Mode</button>
 
   <!-- Articles shall be odd numbers 101-199 -->
-
-	<section id="articles">
-		<h2>The Man. The Myth. The Legend</h2>
-		<article id="article-101">
-			<header>
-				<h2>Sean "I Feel Pretty" Estes<br>
-				The Beginning</h2>
-			</header>
-			<p>I was born and then had a sister and did some things... look a picture of me when I was young</p><img alt="A young Sean" src="./images/sean-young.jpg" width="300">
-		</article>
-		<article id="article-102">
-			<header>
-				<h2>The Middle</h2>
-			</header>
-			<p>I got married.. started career.. had kids... got cancer and had surgeries and chemo.. beat cancer.... <br>
-				 LOOK PICTURE WITH FAMILY!</p><img alt="Sean with Wife and Kids" src="./images/sean-fam.jpg" width="300">
-		</article>
-	</section>
+	<main>
+		<section class="wrapper" id="articles">
+			<h2>The Man. The Myth. The Legend</h2>
+			<article class="article-101">
+				<header>
+					<h2>Sean "I Feel Pretty" Estes<br>
+					The Beginning</h2>
+				</header>
+				<p>I was born and then had a sister and did some things... look a picture of me when I was young</p><img alt="A young Sean" src="../images/sean-young.jpg" width="300">
+			</article>
+			<article class="article-101">
+				<header>
+					<h2>The Middle</h2>
+				</header>
+				<p>I got married.. started career.. had kids... got cancer and had surgeries and chemo.. beat cancer.... <br>
+					 LOOK PICTURE WITH FAMILY!</p><img alt="Sean with Wife and Kids" src="../images/sean-fam.jpg" width="300">
+			</article>
+		</section>
+	</main>
 	<footer>
 		<h5>Copyright 2020 Sean Estes ... Valid Internet Minister</h5>
 	</footer>
-	<script>
-	function myFunction() {
-		 var element = document.body;
-		 element.classList.toggle("dark-mode");
-	}
-	</script>
+
 </body>
 </html>
