@@ -30,7 +30,84 @@
 		</nav>
 
 <main>
-	<img alt="Literally No one to contact" src="../images/complaint-department.jpg" style="width:100%">
+
+	<section class="liability">
+		<h3>You talking to me?!</h3>
+		<form method="get" name="contact-me">
+
+			<label for="fname">First Name
+				<input type="text" id="fname" name="firstname" placeholder="Your name..">
+			</label>
+
+			<label for="lname">Last Name
+				<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+			</label>
+
+			<label for="crecord">How did you hear about me?
+				<select id="hear" name="how-did-you-hear">
+					<option value="Placeholder">...</option>
+					<option value="Fellow Employee">From a fellow employee</option>
+					<option value="Linkdin">linkdin</option>
+					<option value="You applied...">you applied to us silly...</option>
+				</select>
+			</label>
+
+			<label for="country">Country
+				<select id="country" name="country">
+					<option value="USA">USA</option>
+					<option value="Tazmania">Looney Toons</option>
+					<option value="Atlantis">Middle of the Ocean</option>
+				</select>
+			</label>
+
+			<fieldset>
+        <legend>What toolsets are you using?</legend>
+        <label>Catia
+          <input type="checkbox" name="tools[]" value="Catia">
+        </label>
+
+        <label>Enovia
+          <input type="checkbox" name="tools[]" value="Enovia">
+        </label>
+
+        <label>NX
+          <input type="checkbox" name="tools[]" value="NX">
+        </label>
+      </fieldset>
+
+			<fieldset>
+        <legend>Company you Represent</legend>
+        <label>Boeing
+          <input type="radio" name="company" value="Boeing">
+        </label>
+
+        <label>Airbus
+          <input type="radio" name="company" value="Airbus">
+        </label>
+
+        <label>Gulf Stream
+          <input type="radio" name="company" value="Gulf Stream">
+        </label>
+      </fieldset>
+
+			<label>Contact Email
+        <input type="url" name="site">
+      </label>
+
+			<br>
+
+			<label for="subject">What other information would you like from me?
+				<textarea id="subject" name="subject" placeholder="What other info would you like from me?" style="width:1000px"></textarea>
+			</label>
+
+			<input type="submit" value="Submit">
+		</form>
+	</section>
+
+
+
+
+
 </main>
 
 
